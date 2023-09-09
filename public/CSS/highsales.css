@@ -1,0 +1,123 @@
+div.highsales{
+    width: 93%;
+    height: 410px;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: 1px solid #e0e0e5;
+    box-shadow: 2px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+div.highsales>div.swiper{
+  border-radius: 10px ;
+}
+div.highsales>div.title{
+    font-family: Yekan;
+    font-size: 21px ;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    
+ 
+}
+div.highsales>div.title>svg{
+  vertical-align: middle;
+}
+div.highsales>div.title>div.span{
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #18bfd3;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    cursor:pointer;
+   
+}
+
+div.highsales>div.highSwiper {
+    width: 100%;
+    height: 320px;
+  }
+div.highsales>div.highSwiper>div.swiper-wrapper{
+   
+    width: 100%;
+    height: 320px;
+    
+   
+}
+div.highsales>div.highSwiper>div.swiper-wrapper>div.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  
+
+
+  div.col{
+    width: 325px;
+    height: 298px;
+    box-sizing: border-box;
+    margin: 10px;
+    display: inline-block;
+  
+  }
+  
+
+  div.row{
+    width: 306px;
+    height: 86px;
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    cursor:pointer;
+  }
+
+
+  div.row>div.img {
+    width: 86px;
+    height: 86px;
+    object-fit: contain;
+    background-color: burlywood;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+  div.row>div.span{
+    font-family: Yekan;
+    color: #18bfd3;
+    font-size: 26px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 17px;  
+    margin-right: 10px;
+
+}
+div.row>div.p{
+  font-family: Yekan;
+  font-size: 12px;
+  display: inline-block;
+  width: 190px;
+  height: 52px;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  margin-top: 17px;
+  background-color: transparent;
+  overflow: hidden;
+  text-align: right;
+  margin-right: 10px;
+ 
+}
+
+
+
+  

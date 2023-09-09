@@ -1,0 +1,13 @@
+div.button{
+    display: flex;
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    background-color: #ef4056;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1350px;
+   z-index: 2;
+}
+

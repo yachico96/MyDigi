@@ -1,0 +1,103 @@
+div.wonder{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    cursor:pointer;
+}
+div.wonder> div.wow{
+    width: 97%;
+    height: 105px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    background-color: #ecf1ef;
+    border-radius: 12px ;
+    background-repeat: no-repeat;
+    
+}
+
+div.wonder>div.wow>div.wow1{
+    width: 46%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+div.wonder>div.wow>div.wow1>img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px; 
+}
+
+div.wonder>div.wow>div.wow1>div.span{
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 30px ;
+    background-color: #39ae01;
+    position: absolute;
+    color: white;
+    font-family: Yekan;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+div.wonder>div.wow>div.wow2{
+    width: 53%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto; 
+}
+
+div.wonder>div.wow>div.wow2>div.p1>div img{
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        outline: none;
+        vertical-align: top;
+        float: right;
+        margin: 13px;
+        outline: 5px solid white;
+        position: relative;
+    }
+    div.wonder>div.wow>div.wow2>div.p1>div span{
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 14px;
+        background-color: crimson;
+        color: white;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        background-position: 70 0;
+        position: absolute;
+        margin-top: 55px;
+        margin-right: -80px;; 
+        font-size: 12px;
+        font-family: Yekan;
+
+    }
+    div.wonder>div.wow>div.wow2>div.p2{
+        padding: 15px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        color: white;
+        font-family: Yekan;
+        font-size: small;
+        margin-right:50px;
+        display: inline-block;
+        text-align: center;
+       margin-top: 20px;
+        position: absolute;
+        background-color: #ffff;
+        color: #39ae01;
+    }
+    
+   

@@ -1,0 +1,366 @@
+footer{
+    width: 100%;
+    height: 1129px;
+   
+}
+footer>div.container{
+   
+    width: 100%;
+    height: 969px;
+   
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-top: 48px;
+    border: 1px solid #e0e0e5;
+    box-shadow: 2px;
+
+}
+
+footer>div.container>div.footerlogo{
+    width: 1392px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px ;
+  
+}
+footer>div.container>div.footerlogo>button{
+ 
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 40px;
+    border: 1px solid #e0e0e5;
+    border-radius: 10px;
+    box-shadow: 2px;
+    background-color: white;
+    
+}
+footer>div.container>div.footerlogo>button>a{
+    width: 138px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer>div.container>div.footerlogo>button>a>div{
+    font-family: Yekan;
+    font-size:12px ;
+    color: #9e9fb1;
+    text-decoration: none;
+    
+   
+}
+footer>div.container>div.footerlogo>button>a>svg{
+    font-family: Yekan;
+    font-size:12px ;
+    color: #9e9fb1;
+    margin-right: 5px;
+  
+}
+
+footer>div.container>div.contact{
+    width: 1392px;
+    height: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Yekan;
+    gap: 30px;
+    color: #3f4064;
+    font-size: 12px;
+}
+
+footer>div.container>div.features{
+    width: 1392px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer>div.container>div.features>a{
+width: 272px;
+height: 103px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-flow:column;
+font-family: Yekan;
+text-decoration: none;
+font-size: 11px;
+color: #3f4064;;
+}
+footer>div.container>div.features>a>div{
+width: 56px;
+height: 56px;
+
+}
+footer>div.container>div.features>a>div>img{
+    display: inline-block;
+    object-fit: cover;
+    width: 56px;
+    height: 56px;
+}
+
+footer>div.container>div.information{
+    width: 1392px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    font-family: Yekan;
+
+}
+footer>div.container>div.information h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+footer>div.container>div.information p{
+    font-size: 14px;
+    color: #767790;
+    margin-bottom: 8px;
+    cursor: pointer;
+    
+}
+
+footer>div.container>div.information>div.withus>div>div.svgs{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+footer>div.container>div.information>div.withus>div>div.svgs>div>svg{
+    cursor: pointer;
+}
+
+footer>div.container>div.information>div.withus>div>div.form>form{
+    width: 323px;
+    height: 48px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+footer>div.container>div.information>div.withus>div>div.form>form>input[type=email]{
+    width: 260px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #f1f2f4;
+    color: #9e9fb0;
+    font-family: Yekan;
+    font-size:16px;
+    border: unset;
+    padding-right: 10px;
+    margin-left: 10px;
+
+}
+footer>div.container>div.information>div.withus>div>div.form>form>[type=email]:focus{
+    outline: unset;
+}
+footer>div.container>div.information>div.withus>div>div.form>form>button{
+    width: 54px;
+    height: 48px;
+    border-radius: 10px;
+    background-color:#e0e0e5;
+    color: whitesmoke ;
+    font-family: Yekan;
+    font-size: 14px;
+    border: unset;
+    cursor: pointer;
+
+}
+
+footer>div.container>div.applicationbar{
+    width: 1392px;
+    height: 76px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #3c4b6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column row;
+
+}
+footer>div.container>div.applicationbar>div.flogo{
+    width: 288px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+   
+
+}
+footer>div.container>div.applicationbar>div.flogo>div.img>img{
+    width: 44px;
+    height: 44px;
+
+}
+footer>div.container>div.applicationbar>div.flogo>div{
+    font-family: Yekan;
+    color: whitesmoke;
+    margin-right: 10px;
+    font-size: 20px;
+  
+
+}
+footer>div.container>div.applicationbar>div.applications{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-flow: wrap;
+    width: 1063px;
+    height: 60px;
+
+
+}
+footer>div.container>div.applicationbar>div.applications>div.apps{
+    width: 1003px;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+footer>div.container>div.applicationbar>div.applications>div.apps>div{
+    width: 142px;
+    height: 44px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+footer>div.container>div.applicationbar>div.applications>div.apps>div>img{
+    width: 142px;
+    height: 44px;
+ 
+}
+footer>div.container>div.applicationbar>div.applications>div.more{
+    width: 42px;
+    height: 44px;
+    background-color: white;
+    border-radius:5px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+footer>div.container>div.applicationbar>div.applications>div.more>img{
+   margin: 0 auto;
+   display: block;
+   margin-top: 10px;
+   object-fit: cover;
+   scale: 140%;
+   
+}
+footer>div.container>div.credit{
+    margin-top: 40px;
+    width: 1392px;
+    height: 224px;
+    
+    box-sizing: border-box;
+    padding: 32px 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-top: 1px solid #f1f2f4;
+    border-bottom: 1px solid #f1f2f4;
+}
+footer>div.container>div.credit>div.part1{
+    width: 1041px;
+    height: 160px;
+    font-family: Yekan;
+}
+footer>div.container>div.credit>div.part1>div{
+    width: 1001px;
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+}
+footer>div.container>div.credit>div.part1>div>h1{
+    font-weight: bold;
+    font-size: 21px;
+    color: #5a5c7a;
+}
+footer>div.container>div.credit>div.part1>div>p{
+    font-size: 12px;
+    color: #767790;
+    line-height: 25px;
+}
+footer>div.container>div.credit>div.part1>span{
+    width: 92px;
+    height: 26px;
+    font-size: 12px;
+    color: #18bfd3;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer>div.container>div.credit>div.part2{
+    width: 351px;
+    height: 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer>div.container>div.credit>div.part2>div.c{
+    width: 109px;
+    height: 109px;
+    border: 1px solid #e0e0e5;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+footer>div.container>div.credit>div.part2>div.c>img{
+    width: 75px;
+    height: 75px;object-fit: contain;
+    margin-top: 15px;
+}
+
+footer>div.container>div.copyright{
+    width: 1392px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Yekan;
+    color: #767790;
+    font-size: 11px;
+}
+footer>div.footerbrands{
+    width: 1432px;
+    height: 160px;
+    background-color: #f1f2f4 ;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-flow: wrap;
+
+}
+footer>div.footerbrands>a{
+    width: 159px;
+    height: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.3px solid #e0e0e5;
+
+}
+footer>div.footerbrands>a>div{
+    height: 20px;
+
+}
+footer>div.footerbrands>a>div>img{
+    height: 20px;
+    object-fit: contain;
+    display: inline-block;
+    
+}
+
+
+
+

@@ -1,0 +1,131 @@
+div.main{
+height: 815px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+box-sizing: border-box;
+
+}
+div.login2{
+    width: 395px;
+    height: 439px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    outline: 1px solid #e0e0e5;
+    box-shadow: 2px;
+}
+
+div.main>div.login2>div.logo{
+    width: 334px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    cursor:pointer;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+}
+div.main>div.login2>div.other{
+    width: 334px;
+    height: 334px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.main>div.login2>div.other>h1{
+    width: inherit;
+    height: auto;
+    text-align: right;
+    font-family: Yekan;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: text;
+}
+div.main>div.login2>div.other>p{
+    width: inherit;
+    height: auto;
+    text-align: right;
+    font-family: Yekan;
+    font-size: 12px;
+    line-height: 27px;
+    cursor: text;
+}
+div.main>div.login2>div.other>form{
+    width: 334px;
+    height: 154px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.main>div.login2>div.other>form>div.input>input[type=text]{
+    width: 308px;
+    height: 48px;
+    cursor: text;
+    border-radius: 10px;
+    direction: rtl;
+    background-color: white;
+    border: 1px solid #008eb2;
+    margin-top: 14px;
+    padding-right: 25px;
+    font-family: Yekan;
+    transition: 300ms;
+    color: #008eb2 ;
+    vertical-align: top;
+}
+div.main>div.login2>div.other>form>div.input>input[type=text]:focus{
+    outline: unset;
+}
+div.main>div.login2>div.other>form>div.input>input[type=text]::placeholder{
+    font-size: 11px;
+}
+div.main>div.login2>div.other>form>div.input>input[type=text]:focus::placeholder{
+    color: whitesmoke;
+}
+
+
+div.main>div.login2>div.other>form>button{
+    width: 334px;
+    height: 48px;
+    background-color: #ef4056;
+    border-radius: 10px;
+    border: unset;
+    cursor: pointer;
+    
+}
+div.main>div.login2>div.other>form>button>div{
+    font-family: Yekan;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.main>div.login2>div.other>p.caption{
+    font-family: Yekan;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+div.main>div.login2>div.other>p.caption>a{
+    font-family: Yekan;
+    font-size: 11px;
+    color: #008eb2;
+    text-decoration: none;
+}
+
+
+
+

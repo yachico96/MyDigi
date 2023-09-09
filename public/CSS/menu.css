@@ -1,0 +1,435 @@
+
+div.megaMenu{
+    width: 100%;
+    height: 40px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+}
+div.megaMenu>nav>div.middleMenu{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 600px;
+    height: inherit;
+    align-items: center;
+}
+
+
+div.megaMenu>nav>span{
+    color:#e0e0e5;
+    font-family: Yekan;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div.megaMenu>nav>div.middleMenu>div.shegeft{
+    width: 116px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+
+}
+div.megaMenu>nav>div.middleMenu>div.shegeft:hover{
+    border-bottom:2px solid red;
+}
+div.megaMenu>nav>div.middleMenu>div.shegeft>svg{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div.middleMenu>div.shegeft>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5e607d;
+}
+div.megaMenu>nav>div.middleMenu>div.super{
+    width: 102px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+
+}
+div.megaMenu>nav>div.middleMenu>div.super:hover{
+    border-bottom: 2px solid red;
+}
+div.megaMenu>nav>div.middleMenu>div.super>svg{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div.middleMenu>div.super>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5e607d;
+}
+div.megaMenu>nav>div.middleMenu>div.giftcard{
+    width: 102px;
+    height: 33px;
+    display: inline-block;
+    margin-top: 7px;
+    text-align: center;
+}
+div.megaMenu>nav>div.middleMenu>div.giftcard:hover{
+    border-bottom: 2px solid red;
+}
+div.megaMenu>nav>div.middleMenu>div.giftcard>svg{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div.middleMenu>div.giftcard>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5e607d;
+}
+div.megaMenu>nav>div.middleMenu>div.highsale{
+    width: 121px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+
+}
+div.megaMenu>nav>div.middleMenu>div.highsale:hover{
+    border-bottom: 2px solid red;
+}
+div.megaMenu>nav>div.middleMenu>div.highsale>svg{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div.middleMenu>div.highsale>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5e607d;
+}
+
+
+
+div.megaMenu>nav>div.middleMenu>div.sale{
+    width: 140px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+
+}
+div.megaMenu>nav>div.middleMenu>div.sale:hover{
+    border-bottom: 2px solid red;
+}
+div.megaMenu>nav>div.middleMenu>div.sale>svg{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div.middleMenu>div.sale>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5e607d;
+}
+
+
+div.megaMenu>nav>div.otherMenu{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 240px;
+    height: 40px;
+   
+}
+
+
+div.megaMenu>nav>div.otherMenu>div.question{
+    width: 90px;
+    height: 33px;
+    display: inline-block;
+    margin: 7px;
+    text-align: center;
+
+}
+div.megaMenu>nav>div.otherMenu>div.question:hover{
+    border-bottom: 2px solid red;
+}
+div.megaMenu>nav>div.otherMenu>div.question>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5e607d;
+   
+}
+div.megaMenu>nav>div.otherMenu>div.sell{
+    width: 131px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+
+}
+div.megaMenu>nav>div.otherMenu>div.sell:hover{
+    border-bottom: 2px solid red;
+}
+
+div.megaMenu>nav>div.otherMenu>div.sell>a{
+    font-family: Yekan;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5e607d;
+
+}
+div.megaMenu>nav>div.city{
+    
+    height: inherit;
+   
+    display: flex;
+   margin-right: 200px;
+    vertical-align: top;
+    text-align: center;
+    
+}
+div.megaMenu>nav>div.city>svg{
+    margin-top: 10px;
+    cursor: pointer;
+}
+div.megaMenu>nav>div.city>div>a{
+    
+    font-family: Yekan;
+    
+    text-decoration: none;
+    color: #5e607d;
+}
+
+
+div.megaMenu>nav{
+    display: flex;
+    flex-flow: wrap;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    
+    
+}
+
+
+
+
+
+
+div.megaMenu>nav>div[data-parent]{
+    width: 142px;
+    height: inherit;
+    display: inline-block;
+   
+}
+
+
+div.megaMenu>nav>div[data-parent]>a{
+    display: block;
+    width: auto;
+    height: inherit;
+    padding: 0 10px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #3f4064;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Yekan;
+  
+    
+}
+div.megaMenu>nav>div[data-parent]>a:hover{
+    
+    border-bottom: 2px solid red;
+
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu{
+    width: 1100px;
+    height: 72vh;
+    box-shadow: 0 2px 5px #2b2b2b;
+    position: absolute;
+    display: none;
+    overflow: auto;
+
+}
+
+div.megaMenu>nav>div[data-parent]:hover>div.subMenu{
+    display: block;
+
+}
+
+
+div.megaMenu>nav>div[data-parent]>div.subMenu>div{
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    text-decoration: none;
+    
+    background-color:#f5f5f5;
+    color: #3f4064;
+    font-size: 13px;
+    font-family: Yekan;
+    transition: 300ms;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:hover{
+    color: #ef4056;
+    background-color: white;
+
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:hover>svg{
+    fill: #ef4056;
+
+}
+
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>svg{
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero{
+    width: 81%;
+    height: 73.5vh;
+    background-color: white;
+    margin-right: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    position:absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    
+}
+
+
+.active{
+    display: block !important;
+}
+
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a:hover>div.subzero{
+    display: block;
+  
+  
+
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.title{
+    width: 100%;
+    height: 10%;
+    color:#008eb2 ;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: #3f4064;
+    line-height: 30px;
+}
+
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column1>h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f4064;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column2>h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f4064;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column3>h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f4064;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column4>h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f4064;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column1>h4:hover{
+    color: #ef4056;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column2>h4:hover{
+    color: #ef4056;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column3>h4:hover{
+    color: #ef4056;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column4>h4:hover{
+    color: #ef4056;
+}
+
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column1>h4>i{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column2>h4>i{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column3>h4>i{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column4>h4>i{
+    vertical-align: middle;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column1>p{
+    font-size: 12px;
+    color: #767790;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column2>p{
+    font-size: 12px;
+    color: #767790;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column3>p{
+    font-size: 12px;
+    color: #767790;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column4>p{
+    font-size: 12px;
+    color: #767790;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column1>p:hover{
+   color: #ef4056;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column2>p:hover{
+    color: #ef4056;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column3>p:hover{
+    color: #ef4056;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column4>p:hover{
+    color: #ef4056;
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column1{
+    width: 25%;
+    height: 100%;
+    
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column2{
+    width: 25%;
+    height: 100%;
+    
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column3{
+    width: 25%;
+    height: 100%;
+    
+}
+div.megaMenu>nav>div[data-parent]>div.subMenu>div>a>div.subzero>div.subtitle>div.column4{
+    width: 25%;
+    height: 100%;
+    
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,82 @@
+
+div.suggestions{
+    text-align: center; 
+}
+div.suggestions>div.title>h3{
+    font-family: Yekan;
+    text-align: center;
+    cursor: text;
+    display: inline-block;
+    font-size: 22px;
+    
+}
+div.suggestions>div.table{
+    width: 92%;
+    height: auto;
+    display: flex;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    flex-flow: wrap;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+
+}
+div.suggestions>div.table>div.box{
+    width: 186px;
+    height: 154px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 1px;
+    object-fit:contain;
+    outline: 1px solid  #f1f2f4 ;
+    
+}
+div.suggestions>div.table>div.box:nth-of-type(1){
+    border-top-right-radius: 15px;
+}
+div.suggestions>div.table>div.box:nth-of-type(7){
+    border-top-left-radius: 15px;
+}
+div.suggestions>div.table>div.box:nth-of-type(8){
+    border-bottom-right-radius: 15px;
+}
+div.suggestions>div.table>div.box:nth-of-type(14){
+    border-bottom-left-radius: 15px;
+}
+
+div.suggestions>div.table>div.box>div.circle{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: contain;
+    margin-top: 30px;
+    background-color: #f1f2f4;
+    cursor:pointer;
+    overflow: hidden;  
+}
+
+div.suggestions>div.table>div.box>div.circle> img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    object-fit: contain;
+    margin-top: 12px;
+  
+}
+
+div.suggestions>div.table>div.box> h4{
+    font-family: Yekan;
+    font-size: 14px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10px;    
+}
+
+
+
+    

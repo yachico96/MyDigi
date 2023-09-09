@@ -1,0 +1,182 @@
+div.fixed{
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+header{
+    width: 100%;
+    height: 170px;
+    
+
+}
+header>div.headertop{
+    width: inherit;
+    height: 60px;
+    
+}
+header>div.headertop>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+    cursor:pointer;
+}
+header>div.headerbottom{
+    width: 100%;
+    height: 110px;
+}
+header>div.headerbottom>div.btop{
+    width: inherit;
+    height: 70px;
+    box-shadow: 0 1 2 ;
+    background-color: #ffffff;
+    
+}
+
+header>div.headerbottom>div.btop>div.logo{
+    width: 10%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 10px;
+    cursor:pointer;
+}
+header>div.headerbottom>div.btop>div.logo>svg{
+    width: 100%;
+    margin-top: 20px;
+}
+
+header>div.headerbottom>div.btop>div.search{
+    width: 70%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    position: relative;
+}
+header>div.headerbottom>div.btop>div.search>i{
+    position: absolute;
+    left: 98%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+header>div.headerbottom>div.btop>div.search>input[type=text]{
+    width: 590px;
+    height: 44px;
+    margin-top: 14px;
+    background-color: #F1F2F4;
+    border: unset;
+    border-radius: 10px;
+    padding-right: 35px;
+    font-family: Yekan;
+    transition: 300ms;
+}
+header>div.headerbottom>div.btop>div.search>input[type=text]:focus{
+    outline: unset;
+}
+header>div.headerbottom>div.btop>div.search>input[type=text]::placeholder{
+    font-size: 11px;
+}
+header>div.headerbottom>div.btop>div.search>input[type=text]:focus::placeholder{
+    color: whitesmoke;
+}
+header>div.headerbottom>div.btop>div.login{
+    width: 11.5%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+header>div.headerbottom>div.btop>div.login>a{
+    display:block;
+    width: 150px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 14px;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 12px;
+    color: #2b2b2b;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+header>div.headerbottom>div.btop>div.login>a>i{
+    font-size: 16px;
+    vertical-align: middle;
+    transform: rotate(180deg);
+    margin: 0 5px;
+}
+
+header>div.headerbottom>div.btop>div.basket{
+    width: 100px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+
+}
+      
+header>div.headerbottom>div.btop>div.basket>a{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border-right: 1px solid lightgray;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 0;
+    
+    
+}
+header>div.headerbottom>div.btop>div.basket>a>i{
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 5px 20px;
+    cursor:pointer;
+    
+    
+}
+header>div.headerbottom>div.bbottom{
+    width: 100%;
+    height: 40px;
+    
+}
+header>div.headerbottom>div.bbottom>nav{
+    width: inherit;
+    height: inherit;
+
+}
+header>div.headerbottom>div.bbottom>nav>ul{
+    width: inherit;
+    height: inherit;
+    list-style: none;
+    padding-right: 25px;
+}
+header>div.headerbottom>div.bbottom>nav>ul>li{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+}
+header>div.headerbottom>div.bbottom>nav>ul>li>a{
+display: block;
+width: auto;
+padding: 0 10px;
+height: inherit;
+line-height: 40px;
+text-decoration: none;
+font-family: Yekan;
+font-size: 12px;
+}
+header>div.headerbottom>div.bbottom>nav>ul>li>a>i{
+    margin: 0 5px;
+    font-size: 16px;
+}
+.active{
+    font-weight: bold;
+    font-size: 14px !important;
+}

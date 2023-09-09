@@ -1,0 +1,124 @@
+div.plus{
+    display: flex;
+    background-color: #941b80;
+    width: 93%;
+    height: 385px;
+    box-sizing: border-box;
+    outline: 1px solid #f1f2f4;
+    border-radius: 15px;
+    margin: 0 48px;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+div.plus1{
+    width: 435px;   
+    height: 352px;
+    box-sizing: border-box;
+    background-color: #941b80;
+    background-image: url(../images/digiplus/plus-widget.png); 
+    background-size: contain;
+    background-position: bottom;
+   
+   
+}
+div.plus>div.plus1>div.p1{
+ margin-top: 30px;
+ margin-right: 20px;
+ cursor:pointer;
+    
+}
+div.plus>div.plus1>div.p2{
+    font-family: Yekan;
+    font-size: 14px;
+    color: white;
+    margin-right: 20px;
+    cursor: text;
+
+}
+div.plus>div.plus1>div.p3{
+width: 107px;
+height: 35px;
+box-sizing: border-box;
+border-radius: 10px;
+outline: 1px solid white;
+margin: 20px;
+display: inline-block;
+}
+
+div.plus>div.plus1>div.p3>a{
+font-family: Yekan;
+font-size: 14px;
+color: white;
+text-decoration: none;
+text-align: center;
+margin: 10px;
+margin-right: 20px;
+display: inline-block;
+cursor:pointer;
+}
+div.plus2{
+    width: 864px;   
+    height: 352px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 4px;
+    border-radius: 15px;
+    padding: 0 16px;
+
+   }
+
+div.plus>div.plus2>div.title{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    
+   }
+div.plus>div.plus2>div.title> div.title1{
+   
+    
+    margin: 0 0 0 16px;
+    font-family: Yekan;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+   
+
+}
+
+div.plus>div.plus2>div.title> div.title2{
+    
+   
+    margin: 0 0 0 16px;
+    font-family: Yekan;
+    font-size: 12px;
+    color: #b12ba4;
+    font-weight: bold;
+    cursor:pointer;
+   
+
+}
+div.plus>div.plus2>div.images{
+    width: 836px;
+    height: 289px;
+    padding: 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 7px;
+    
+}
+div.plus>div.plus2>div.images>div>img{
+    width: 116px;
+    height: 116px;
+    cursor:pointer;
+    
+}
+

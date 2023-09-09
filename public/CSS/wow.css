@@ -1,0 +1,179 @@
+div.wonderful{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+div.wonderful>div.item{
+    width: 97%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 20px 20px 0;
+    box-sizing: border-box;
+    background-color: #dc143c;
+    border-radius: 20px;
+    cursor:pointer;
+    
+}
+
+
+div.wonderful>div.item div.box{
+    text-align: center;
+    display: block;
+    background-color: #dc143c;
+    width: inherit;
+    
+     
+    
+}
+div.wonderful>div.item div.box>img{
+    width: 145px;
+    height: 116px;
+    display: inline-block;
+    object-fit: contain;
+  
+}
+div.wonderful>div.item div.box>p{
+font-family: Yekan;
+font-size: 20px;
+color: white;
+margin-top: 3px;
+
+}
+div.wonderful>div.item div.more{
+    text-align: center;
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: bold;
+    height: 268px;
+   
+}
+div.wonderful>div.item div.more>i{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    
+    
+}
+div.wonderful>div.item div.imageWow{
+    text-align: center;
+}
+div.wonderful>div.item div.imageWow>img{
+    width: 60%;
+    display: inline-block;
+   
+}
+
+div.wonderful>div.item>div.swiper {
+     
+    border-radius: 10px;
+    background-color: crimson;
+}
+div.wonderful>div.item>div.swiper>div.swiper-wrapper{
+    border-radius: 10px;
+    
+}
+
+.changeProduct{
+    flex-flow: column wrap;
+    height: 300px;
+    
+    
+    
+}
+div.changeProduct:nth-of-type(1){
+    background-color: crimson;
+}
+div.changeProduct:nth-of-type(2){
+   
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+  
+    
+}
+div.changeProduct:nth-of-type(14){
+   
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+   
+     
+ }
+div.changeproduct>div.imageWow:nth-of-type(2){
+    border-top-right-radius: 10px;
+}
+div.imageWow>img:nth-of-type(2){
+    border-top-right-radius: 10px;
+}
+
+div.wonderful>div.item div.price{
+    width: 100%;
+}
+div.wonderful>div.item div.price>div.left , div.wonderful>div.item div.price>div.right{
+    display: inline-block;
+}
+div.wonderful>div.item div.price>div.left{
+    font-size: 14px;
+    font-family: Yekan;
+    text-align: left;
+    font-weight: bold;
+    width: 50%;
+}
+div.wonderful>div.item div.price>div.right{
+    font-size: 14px;
+    font-family: Yekan;
+    text-align: right;
+    font-weight: bold;
+    width: 40%;
+}
+div.wonderful>div.item div.price>div.right>span{
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 30px ;
+    background-color: crimson;
+    position: relative;
+    color: white;
+}
+div.wonderful>div.item div.deletePan{
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: grey;
+    font-family: Yekan;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+div.swiper-slide:nth-of-type(1){
+    border-radius: 0 10px 10px 0;
+    box-shadow: 5px 5px 25px;
+    
+}
+
+
+.swiper-button-prev{
+    border-radius: 50%;
+}
+.swiper-button-next{
+    border-radius: 50%;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    line-height: 35px; 
+    border-radius: 50%;
+    border: 1px solid #e3e3e8;
+    text-align: center;   
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 12px;
+    color: #787992;
+    font-weight: bold;
+}
